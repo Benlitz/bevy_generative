@@ -47,7 +47,7 @@ fn bounding_coords(points: &[Vertex]) -> ([f32; 3], [f32; 3]) {
     (min, max)
 }
 
-fn align_to_multiple_of_four(n: &mut usize) {
+const fn align_to_multiple_of_four(n: &mut usize) {
     *n = (*n + 3) & !3;
 }
 

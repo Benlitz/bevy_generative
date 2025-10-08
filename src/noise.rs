@@ -314,7 +314,7 @@ pub(crate) fn generate_noise_vector(
         for j in 0..size[1] {
             let x = f64::from(i as i32 - (size[0] / 2) as i32) / scale + offset[0];
             let y = f64::from(j as i32 - (size[1] / 2) as i32) / scale + offset[1];
-            let value = (noise.get([x, y]) + 1.0) / 2.0 * 100.0;
+            let value = f64::midpoint(noise.get([x, y]), 1.0) * 100.0;
             row.push(value);
         }
         noise_vector.push(row);
