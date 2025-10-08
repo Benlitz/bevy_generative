@@ -1,8 +1,15 @@
 # Changelog
 
-### [v0.3.1](https://github.com/manankarnik/bevy_generative/compare/v0.3.0...v0.3.1) (2024-08-23)
+## [Unreleased](https://github.com/manankarnik/bevy_generative/compare/v0.3.1...496bf100955d7308c7cce6091b0f9912ea043e42) (2025-10-08)
 
-## [v0.3.0](https://github.com/manankarnik/bevy_generative/compare/v0.2.0...v0.3.0) (2024-08-23)
+### Fixes
+
+* clippy
+([43c9662](https://github.com/manankarnik/bevy_generative/commit/43c9662e1c6243b36ef831a7d1e260cc2e0b8ad5))
+
+### [v0.3.1](https://github.com/manankarnik/bevy_generative/compare/v0.3.0...v0.3.1) (2025-10-08)
+
+## [v0.3.0](https://github.com/manankarnik/bevy_generative/compare/v0.2.0...v0.3.0) (2025-10-08)
 
 ## [v0.2.0](https://github.com/manankarnik/bevy_generative/compare/v0.1.0...v0.2.0) (2024-03-08)
 
