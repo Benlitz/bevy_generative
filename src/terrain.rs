@@ -88,13 +88,13 @@ impl Default for Terrain {
     }
 }
 
-/// Render `Terrain` as a `PbrBundle`
+/// Render `Terrain` as a `Mesh3d`
 #[derive(Bundle, Default)]
 pub struct TerrainBundle {
     /// Terrain configuration
     pub terrain: Terrain,
-    /// Generated mesh data is written to `PbrBundle`
-    pub pbr_bundle: (Mesh3d, MeshMaterial3d<StandardMaterial>),
+    /// Generated mesh data
+    pub mesh: (Mesh3d, MeshMaterial3d<StandardMaterial>),
 }
 
 /// Plugin to generate terrain

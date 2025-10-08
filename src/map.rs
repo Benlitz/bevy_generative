@@ -67,7 +67,7 @@ pub struct Map {
 pub struct MapBundle {
     /// See [`Map`](./struct.Map.html)
     pub map: Map,
-    /// See [`ImageBundle`](../../bevy/prelude/struct.ImageBundle.html)
+    /// See [`ImageNode`](../../bevy/prelude/struct.ImageNode.html)
     pub image_bundle: ImageNode,
 }
 

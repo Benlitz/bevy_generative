@@ -122,13 +122,13 @@ impl Default for Planet {
     }
 }
 
-/// Render `Planet` as a `PbrBundle`
+/// Render `Planet` as a `Mesh3d`
 #[derive(Bundle, Default)]
 pub struct PlanetBundle {
     /// Planet configuration
     pub planet: Planet,
-    /// Generated mesh data is written to `PbrBundle`
-    pub pbr_bundle: (Mesh3d, MeshMaterial3d<StandardMaterial>),
+    /// Generated mesh data
+    pub mesh: (Mesh3d, MeshMaterial3d<StandardMaterial>),
 }
 
 /// Plugin to generate planet
