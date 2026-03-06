@@ -21,10 +21,7 @@
 //!    commands.spawn(MapBundle::default());
 //! }
 //! ```
-use bevy::{
-    prelude::*,
-    render::{render_asset::RenderAssetUsages, render_resource::TextureFormat},
-};
+use bevy::{asset::RenderAssetUsages, prelude::*, render::render_resource::TextureFormat};
 use colorgrad::{Gradient, LinearGradient};
 use image::{imageops::FilterType, DynamicImage, Pixel};
 use serde::{Deserialize, Serialize};
