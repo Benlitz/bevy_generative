@@ -34,9 +34,9 @@ fn setup(mut commands: Commands) {
             justify_content: JustifyContent::Center,
             align_items: AlignItems::Center,
             margin: UiRect::all(Val::Px(12.)),
+            border_radius: BorderRadius::all(Val::Px(5.)),
             ..default()
         },
-        BorderRadius::all(Val::Px(5.)),
         BackgroundColor(NORMAL_BUTTON.into()),
     );
 
